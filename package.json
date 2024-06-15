@@ -1,0 +1,22 @@
+{
+  "name": "crypto0",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "leaflet": "^1.9.4",
+    "vue": "^3.4.21",
+    "vue-awesome-paginate": "^1.1.46",
+    "vue2-leaflet": "^2.7.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8"
+  }
+}
