@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white my-card">
     <!-- <img class="w-full h-48 object-cover" :src="brewery.image" :alt="brewery.name"> -->
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">{{ brewery.name }}</div>
@@ -29,3 +29,12 @@
     }
   }
 </script>
+
+
+<style scoped>
+/* @media only screen and (max-width: 750px) { */
+  .my-card {
+    margin-left: 1.8rem;
+  }
+/* } */
+</style>
